@@ -164,7 +164,7 @@ plot(0:25,dbinom(0:25,900,p),main = 'Distribucion binomial ( n <= 25 , p = 0.015
 ```
 
 
-***Analisis:** Se determina que la probabilidad de que a lo sumo 25 billetes sean falsos, presenta una probablidad del 13% con un rango de cantidad entre que 8 y 18 billetes sean falsos.
+**Analisis:** Se determina que la probabilidad de que a lo sumo 25 billetes sean falsos, presenta una probablidad del 13% con un rango de cantidad entre que 8 y 18 billetes sean falsos.
 
 
 
@@ -204,7 +204,7 @@ plot(10:900,dbinom(10:900,900,p),main = 'Distribucion binomial (  n > 10  , p = 
 Según un estudio del Departamento Nacional de Estadística -DANE-, la vida media para el quinquenio de 2010 a 2015 de los habitantes de Colombia es 76 años, con una varianza de 25. Se pretende hacer un estudio con el objetivo de extrapolar los resultados anteriores a una pequeña ciudad de 100.000 habitantes, considerando que el tiempo de sobrevida es normal.
 
 ```{r echo=FALSE}
-#Grafica de la distribucion normal
+
 plot(0:152,dnorm(0:152,76,5),type = 'l',main = 'Esperanza de vida del quinquenio',xlab = 'Años de vida',ylab = 'Probabilidad')
 ```
 
